@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;
+    
+}
+.wrapper h1{
+    color: white;
+    background-color: transparent;
+}
+.wrapper p{
+    color: white;
+    background-color: transparent;
+}
+.bg {
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transform-style: preserve-3d;
+}
+
+.container1 > h1 {
+    font-size: 60px;
+}
+
+.container2 {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    padding: 50px 20px 50px 20px;
+}
+
+.img {
+    height: 300px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.img {
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+  
+.img:hover {
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+}
+
+.innerContainer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container3 {
+    background-color: rgb(70, 8, 120);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+
+.innerContainer2 > h2 {
+    color: white;
+}
+
+.innerContainer2 > p {
+    color: rgba(188, 140, 227, 0.777);
+}
+
+.innerContainer3 > form {
+    display: flex;
+    gap: 10px;
+}
+
+#input1 {
+    border-radius: 5px;
+    padding-left: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#button1 {
+    font-weight: bold;
+    padding: 1px 10px;
+    font-size: large;
+    background-color: rgb(15, 130, 86);
+    color: rgba(255, 255, 255, 0.678);
+    border-radius: 10px 10px 10px 0px;
+    -webkit-border-radius: 10px 10px 10px 0px;
+    -moz-border-radius: 10px 10px 10px 0px;
+    -ms-border-radius: 10px 10px 10px 0px;
+    -o-border-radius: 10px 10px 10px 0px;
+}
+
+mark {
+    background: rgb(70, 8, 120);
+    color: yellow;
+}

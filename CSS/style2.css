@@ -1,0 +1,46 @@
+li{
+    font-weight:700;
+    font-size: 32px;
+}
+.html{
+    color: red !important;
+}
+.css{
+    color: blue;
+}
+.js{
+    color: yellow;
+}
+.react{
+    color: skyblue;
+}
+.talwind{
+    color:black ;
+}
+/* #html{
+    font-size: 32px;
+}
+#css{
+    font-size: 32px;
+}
+#js{
+    font-size: 32px;
+}
+#react{
+    font-size: 32px;
+}
+#tailwind{
+    font-size: 32px;
+} */
+[class]{
+    background-color: aqua;
+}
+ul p{
+    background-color: darkgreen;
+}
+h1:hover{
+    color: blue;
+}
+p:hover{
+    color: deeppink;
+}

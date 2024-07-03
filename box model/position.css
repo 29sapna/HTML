@@ -1,0 +1,25 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    /* opacity: 1; */
+    /* transform: scale(1); */
+    /* transform-origin: 0 0; */
+    /* transform: rotate(45deg); */
+    /* transform: translate(100px); */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 4px rgba(hsl(240, 100%, 45%), green, blue, alpha);
+    transition: all;
+    /* text-shadow: 0cm; */
+
+}
+.h1{
+    text-shadow:rgba(hsl(0, 9%, 54%), green, blue, alpha);
+}
+.box:hover{
+    background-color: brown;
+    transition: all;
+}

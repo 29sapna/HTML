@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+p{
+    background-color: darksalmon;
+    width: 300px;
+    height: 100px;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 10px solid green;
+    margin: 25px;
+
+
+}
+div{
+    background-color: blueviolet;
+    padding: 25px;
+    margin: 20px;
+    outline: 60px solid hotpink;
+    display: inline;
+}
+iframe{
+    width: 720px;
+    height: 480px;
+}

@@ -1,0 +1,32 @@
+h1 {
+    color: purple;
+}
+
+#header1{
+    color: green;
+}
+p {
+    color: blue;
+}
+#Book {
+    background-color: purple;
+}
+.navigation {
+    margin: 2px;
+}
+#blog h1{
+    color: blue;
+}
+#blog  div h1{
+    color: blue;
+}
+#blog  > h1{
+    
+    color: blue;
+}
+a:hover {
+    color: #ffa32a;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+}

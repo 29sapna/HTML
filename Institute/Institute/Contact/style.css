@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;
+}
+
+.bg {
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transform-style: preserve-3d;
+}
+
+.container1 > h1, .container1 > h2 {
+    font-size: 60px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img {
+    height: 20px;
+}
+
+.a {
+    color: gray;
+    text-decoration: none;
+}
+
+span {
+    color: gray;
+}
+
+#map {
+    height: 300px;
+}
